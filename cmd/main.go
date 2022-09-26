@@ -1,5 +1,9 @@
 package main
 
+import (
+	"github.com/Moriartii/translator/pkg/starter"
+)
+
 func main() {
-// TODO
+	starter.Run()
 }
