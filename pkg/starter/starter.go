@@ -36,6 +36,7 @@ func (a *app) Run() {
 	a.setDebugMode()
 	log.Println("Program stopped...")
 	log.Println("Program stopped...")
+	log.Println("Program stopped...")
 }
 
 //--
