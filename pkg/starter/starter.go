@@ -51,6 +51,7 @@ func enableDebug() bool {
 		os.Getenv("TELEGRAM_BOT_DEBUG") == "true" {
 		return true
 	}
+	log.Println("Checking debug flag...")
 	return false
 }
 
