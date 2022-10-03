@@ -44,7 +44,7 @@ func (a *app) Run() {
 
 func enableDebug() bool {
 	log.Println("Checking debug flag...")
-
+	log.Println("Checking debug flag...")
 	if os.Getenv("TELEGRAM_BOT_DEBUG") == "1" ||
 		os.Getenv("TELEGRAM_BOT_DEBUG") == "TRUE" ||
 		os.Getenv("TELEGRAM_BOT_DEBUG") == "True" ||
