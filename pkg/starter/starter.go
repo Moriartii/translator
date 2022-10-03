@@ -38,6 +38,7 @@ func (a *app) Run() {
 	log.Println("Program stopped...")
 	log.Println("Program stopped...")
 	log.Println("Program stopped...")
+	log.Println("Program stopped...")
 }
 
 //--
