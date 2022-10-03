@@ -34,7 +34,7 @@ func (a *app) Run() {
 	log.Println("Program started...")
 	a.setBot()
 	a.setDebugMode()
-
+	log.Println("Program stopped...")
 	log.Println("Program stopped...")
 }
 
