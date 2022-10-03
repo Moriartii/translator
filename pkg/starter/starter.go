@@ -21,6 +21,7 @@ func (a *app) setDebugMode() {
 
 func (a *app) setBot() {
 	log.Println("Setting botAPI...")
+	log.Println("Setting botAPI...")
 
 	bot, err := tgbotapi.NewBotAPI(os.Getenv("TELEGRAM_BOT_TOKEN"))
 	if err != nil {
