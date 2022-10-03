@@ -31,7 +31,7 @@ func (a *app) setBot() {
 
 func (a *app) Run() {
 	log.Println("Program started...")
-
+	log.Println("Program started...")
 	a.setBot()
 	a.setDebugMode()
 
