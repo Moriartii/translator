@@ -21,6 +21,7 @@ func (a *app) setDebugMode() {
 
 func (a *app) setBot() {
 	log.Println("Setting botAPI...")
+	log.Println("Setting botAPI...")
 
 	bot, err := tgbotapi.NewBotAPI(os.Getenv("TELEGRAM_BOT_TOKEN"))
 	if err != nil {
@@ -31,10 +32,11 @@ func (a *app) setBot() {
 
 func (a *app) Run() {
 	log.Println("Program started...")
-
+	log.Println("Program started...")
 	a.setBot()
 	a.setDebugMode()
-
+	log.Println("Program stopped...")
+	log.Println("Program stopped...")
 	log.Println("Program stopped...")
 }
 
@@ -42,13 +44,14 @@ func (a *app) Run() {
 
 func enableDebug() bool {
 	log.Println("Checking debug flag...")
-
+	log.Println("Checking debug flag...")
 	if os.Getenv("TELEGRAM_BOT_DEBUG") == "1" ||
 		os.Getenv("TELEGRAM_BOT_DEBUG") == "TRUE" ||
 		os.Getenv("TELEGRAM_BOT_DEBUG") == "True" ||
 		os.Getenv("TELEGRAM_BOT_DEBUG") == "true" {
 		return true
 	}
+	log.Println("Checking debug flag...")
 	return false
 }
 
